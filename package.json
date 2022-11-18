@@ -1,0 +1,23 @@
+{
+  "name": "jg-coding-dark-theme",
+  "displayName": "jg-coding-dark-theme",
+  "publisher": "jhonigiacomolli",
+  "icon": "assets/icon.png",
+  "description": "Minimal dark theme with green and purple details",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JG Coding Dark Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JG Coding Dark Theme-color-theme.json"
+      }
+    ]
+  }
+}
