@@ -785,7 +785,7 @@
 			"name": "Attributes",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#e8e8e8"
+				"foreground": "#afedf1"
 			}
 		},
 		{
@@ -1052,7 +1052,7 @@
 			"name": "[VSCODE-CUSTOM] JSON Property Name",
 			"scope": "support.type.property-name.json",
 			"settings": {
-				"foreground": "#c7c7c7"
+				"foreground": "#0fac34"
 			}
 		},
 		{
