@@ -4,7 +4,7 @@
   "publisher": "jhonigiacomolli",
   "icon": "assets/icon.png",
   "description": "Minimal dark theme with green and purple details",
-  "version": "0.0.2",
+  "version": "0.0.11",
   "engines": {
     "vscode": "^1.73.0"
   },

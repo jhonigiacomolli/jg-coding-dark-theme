@@ -329,7 +329,7 @@
 			"name": "entity.name.type.module",
 			"scope": "entity.name.type.module",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
@@ -606,14 +606,14 @@
 			"name": "Classes",
 			"scope": "entity.name.type.namespace",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
 			"name": "Classes",
 			"scope": "support.class, entity.name.type.class",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
@@ -645,7 +645,7 @@
 			"name": "Type Name",
 			"scope": "entity.name.type",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
@@ -757,7 +757,7 @@
 			"name": "Integers",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#e8e8e8"
+				"foreground": "#df71fd"
 			}
 		},
 		{
@@ -1262,7 +1262,7 @@
 			"name": "ts primitive/builtin types",
 			"scope": "support.type.primitive.ts,support.type.builtin.ts,support.type.primitive.tsx,support.type.builtin.tsx",
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
@@ -1354,7 +1354,7 @@
 				"support.type.primitive"
 			],
 			"settings": {
-				"foreground": "#ffffff"
+				"foreground": "#03edfd"
 			}
 		},
 		{
@@ -1842,7 +1842,70 @@
 			"settings": {
 				"fontStyle": "italic"
 			}
-		}
+		},
+		{
+			"name": "tsx components",
+			"scope": "support.class.component.tsx",
+			"settings": {
+				"foreground": "#03edfd"
+			}
+		},
+		{
+			"name": "Tags",
+			"scope": "entity.name.tag.css, entity.other.attribute-name.class.css",
+			"settings": {
+				"foreground": "#00a4af"
+			}
+		},
+		{
+			"name": "Primitive values",
+			"scope": "constant.language.boolean,variable.other.constant, meta.brace.square",
+			"settings": {
+				"foreground": "#df71fd"
+			}
+		},
+		{
+			"name": "Variables types",
+			"scope": "storage.type, keyword.control.flow",
+			"settings": {
+				"foreground": "#818181"
+			}
+		},
+		{
+			"name": "Import/Export",
+			"scope": "keyword.control.export, keyword.control.import, keyword.control.from",
+			"settings": {
+				"foreground": "#5a5a5a"
+			}
+		},
+		{
+			"name": "Imported values",
+			"scope": "variable.other.readwrite.alias",
+			"settings": {
+				"foreground": "#ffffff"
+			}
+		},
+		{
+			"name": "Css constants",
+			"scope": "constant.numeric.css, keyword.operator.optional.tsx",
+			"settings": {
+				"foreground": "#03edfd"
+			}
+		},
+		{
+			"name": "Css units",
+			"scope": "keyword.other.unit.px.css, keyword.other.unit.rem.css, keyword.other.unit.em.css, keyword.other.unit.percentage.css",
+			"settings": {
+				"foreground": "#00a4af"
+			}
+		},
+		{
+			"name": "Css units",
+			"scope": "variable.parameter",
+			"settings": {
+				"foreground": "#0fac34"
+			}
+		},
 	],
 	"colors": {
 		"foreground": "#ffffff",
